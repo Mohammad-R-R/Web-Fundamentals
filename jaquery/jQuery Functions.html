@@ -1,0 +1,114 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $("p").click(function(){
+            $(this).hide();
+
+        });
+
+        $(".btn").click(function(){
+            $("p").show();
+
+        });
+        $(".toggle").click(function(){
+            $("p").toggle();
+        });
+        $(".sd").click(function(){
+            $("p").slideDown();
+
+        });
+        $(".su").click(function(){
+            $("p").slideUp();
+        });
+
+        $(".st").click(function(){
+            $("p").slideToggle();
+        });
+
+        $(".fadeout").click(function(){
+    $("p").fadeOut();
+  });
+  $(".fadein").click(function(){
+    $("p").fadeIn();
+  });
+
+
+$(".addclass").click(function(){
+    $("p").addClass("add");
+});
+
+$(".before").click(function(){
+$("p").before("<p>this is before build function</p>");
+});
+
+$(".after").click(function(){
+$("p").after("hi there");
+});
+
+$(".append").click(function(){
+$("p").append("hello");
+});
+
+$(".html").click(function(){
+$("p").html("what!");
+});
+
+$(".wow").click(function(){
+$("img").attr("width","400");
+});
+
+$("button").click(function(){
+    $("input:text").val("val test");
+  });
+
+  $(".text").click(function(){
+$("p").text("<p>this works as gtter and setter</p>");
+});
+
+
+    });
+  
+
+
+
+
+
+    </script>
+    <style>
+    .add{
+    background-color: brown;
+    font-size: xx-large;
+    }
+</style>
+</head>
+<body>
+    <img src="123.jpg" width="251px" alt="photo">
+   <p>hi there i see u </p>
+   <button class="btn">show</button>
+   <button class="toggle">toglle(hide and show)</button>
+   <button class="sd">show with  slideDown</button>
+   <button class="su">hide with  slideup</button>
+   <button class="st">  slidetoggle</button>
+   <button class="fadein">  fadein</button>
+   <button class="fadeout">  fadeout</button>
+   <button class="addclass">  addclass</button>
+   <button class="before">  before</button>
+   <button class="after">  after</button>
+   <button class="append">  append</button>
+   <button class="html">  html</button>
+   <button class="wow">  attr</button>
+   <p>Name: <input type="text" name="user"></p>
+
+<button class="val"> to fill field</button>
+
+<button class="text">  text</button>
+
+
+
+
+
+
+
+</body>
