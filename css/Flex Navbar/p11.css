@@ -1,0 +1,13 @@
+.f1{
+    background-color: blue;
+    display: flex;
+    height: 500px;
+    align-items: center;
+}
+.f2{
+    background-color: cornsilk;
+    width: 100px;
+    height: 100px;
+   position: relative;
+   left: 674px;
+}
