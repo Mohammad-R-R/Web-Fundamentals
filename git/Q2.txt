@@ -1,0 +1,22 @@
+$ git inti
+
+$ git config --global user.name "mohammad rebhi"
+
+$ git config --global user.email "d.dodo.dode@hotmail.com"
+
+$ git remote add origin https://github.com/Mohammad-R-R/basic_repo
+
+$ mkdir gittest
+
+$ git add .
+
+$ git commit -m "first"
+
+$ git push origin master 
+
+$ git add . 
+
+$ git commit -m "modfiy"
+
+$ git push origin master 
+
