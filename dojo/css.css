@@ -1,0 +1,15 @@
+.hello{
+    background-color: bisque;
+    display:flex ;
+    width: 970px;
+    margin: 0 auto;
+    text-decoration:blue ;
+    text-align: center;
+
+}
+.hello p {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
