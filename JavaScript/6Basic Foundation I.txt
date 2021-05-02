@@ -1,0 +1,292 @@
+from 1-255
+function fromoneto()
+{var arr=[];
+
+for(var i =1;i<=255;i++){
+arr.push(i);
+}
+
+return arr;
+
+}
+
+
+console.log(fromoneto());
+______________________________________________________________________
+sum all even nubers from 1-1000
+function fromoneto()
+{
+
+var sum=0;
+for(var i= 1;i <=1000;i++){
+if(i%2 == 0){
+sum=sum+i;
+
+	}
+}
+
+return sum;
+
+}
+
+
+console.log(fromoneto());
+_____________________________________________________________________________
+
+sum all odd numbers 1-5000
+
+var sum=0;
+for(var i= 1;i <=5000;i++){
+if(i%2 != 0){
+sum=sum+i;
+
+	}
+}
+
+return sum;
+
+}
+
+
+console.log(fromoneto());
+_________________________________________________________________________
+
+array sum
+
+var arr =[1,2,3,4,5,6];
+
+
+
+function fromoneto(arr)
+{
+var sum=0;
+for(var i= 0;i < arr.length ;i++){
+sum=sum+arr[i]
+}
+
+return sum;
+
+}
+
+
+console.log(fromoneto());
+______________________________________________________________________________
+
+finding max number in array
+
+
+
+
+function fromoneto(arr)
+{
+ var max = arr[0];
+for(var i= 0;i < arr.length ;i++){
+if ( max<arr[i] )
+  max = arr[i];
+   }
+
+return max;
+
+}
+
+var arr =[1,2,3,4,5,6];
+
+console.log(fromoneto(arr)); 
+
+______________________________________________________________________________
+avg function
+
+
+
+function fromoneto(arr)
+{
+ var max = arr[0];
+ var sum =0;
+ var avg=0;
+for(var i= 0;i < arr.length ;i++){
+sum=sum+arr[i];
+   }
+avg=sum/arr.length;
+return avg;
+
+
+}
+
+var arr =[1,2,3,4,5,6];
+
+console.log(fromoneto(arr)); 
+___________________________________________________________________________
+
+
+Array odd 
+
+
+
+function fromoneto()
+{
+var arr =[];
+for(var i= 0;i < 50 ;i++){
+if(i%2!=0){
+arr.push(i)
+
+}
+
+
+
+}
+console.log(arr);
+}
+
+
+fromoneto(); 
+
+
+______________________________________________________________________________
+Greater than Y
+
+
+var arr =[1,2,3,4,5,6,7,8,9];
+
+function fromoneto()
+{
+var y =3;
+var count=0;
+
+for(var i= 0;i < 50 ;i++){
+
+if(arr[i]>y){
+count++;
+}
+
+
+}
+return count;
+}
+
+console.log(fromoneto(arr)); 
+-____________________________________________________________________________________
+
+Squares:
+
+var arr =[1,2,3,4,5,6,7,8,9];
+
+function fromoneto()
+{
+var y =3;
+var count=0;
+
+for(var i= 0;i < arr.length ;i++){
+arr[i]=arr[i]*arr[i];
+
+
+}
+console.log(arr);
+}
+fromoneto();
+__________________________________________________________________________________________
+
+Negatives:
+
+var arr =[1,-2,3,4,-5,6,7,8,9];
+
+function fromoneto()
+{
+var y =3;
+var count=0;
+
+for(var i= 0;i < arr.length ;i++){
+if(arr[i]<0){
+arr[i]=0;
+}
+
+
+}
+console.log(arr);
+}
+fromoneto();
+
+__________________________________________________________________________________________
+Max/Min/Avg:
+
+
+var arr =[1,-2,3,4,-5,6,7,8,9];
+
+function fromoneto()
+{
+var y =0;
+var count=0;
+var max = arr[0];
+var min =arr[0];
+var avg=0;
+
+for(var i= 0;i < arr.length ;i++){
+if ( max<arr[i] ){
+  max = arr[i];
+  }
+  if ( min>arr[i] ){
+  min = arr[i];
+  }
+  y=y+i;
+
+
+}
+avg =y/arr.length;
+var arr2=[min,max,avg];
+console.log(arr2);
+}
+fromoneto();
+
+_____________________________________________________________________________________________
+
+sawp:
+
+
+var arr =[1,-2,3,4,-5,6,7,8,9];
+
+function fromoneto()
+{
+var temp=0;
+
+
+temp = arr[arr.length-1];
+arr[arr.length-1]=arr[0];
+arr[0]=temp;
+
+
+console.log(arr);
+
+}
+fromoneto();
+
+_________________________________________________________________________________________
+
+Number to String
+
+var arr =[1,-2,3,4,-5,6,7,8,9];
+
+function fromoneto()
+{
+var temp=0;
+
+for(var i=0;i<arr.length;i++){
+
+if(arr[i]<0){
+arr[i]='Dojo'
+}
+}
+
+
+console.log(arr);
+
+}
+fromoneto();
+
+
+
+
+
+
+
+
+
+
