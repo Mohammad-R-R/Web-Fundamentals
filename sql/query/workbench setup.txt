@@ -1,0 +1,24 @@
+show databases;
+create database test;
+use test;
+
+create table axsosst(
+sid int primary key,
+sname varchar(100),
+grade real
+
+);
+insert into axsosst(sid,sname,grade)
+values(1180812,'mohammad',90),
+      (1180814,'ahmad',85),
+      (1180871,'amro',85);
+      
+      show tables;
+      select * from axsosst;
+      
+      update axsosst set sname ='hey i am the update'
+      where sid =1180812;
+      
+     DELETE FROM axsosst WHERE sid= 1180814;
+     
+     select * from axsosst;
